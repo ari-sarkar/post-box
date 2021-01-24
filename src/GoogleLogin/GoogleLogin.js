@@ -26,7 +26,7 @@ const GoogleLoginPage = () => {
           onSuccess={responseGoogle}
           onFailure={responseGoogle}
           cookiePolicy={"single_host_origin"}
-          className="google-login-button "
+          className="google-login-button"
         />
         </div>
       )}
