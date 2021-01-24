@@ -15,12 +15,12 @@ const UserData = ({ email }) => {
       "Access-Control-Allow-Headers": "Authorization, Lang",
       "Content-Type": "application/x-www-form-urlencoded",
       client_id:
-        "772609921073-ak17pk0ne0culh4ijufcejachiakupe7.apps.googleusercontent.com",
+        "277086162918-2ak8d3rcaf7v7907ak17qq5kro967t39.apps.googleusercontent.com",
       project_id: "quickstart-1611387465750",
       auth_uri: "https://accounts.google.com/o/oauth2/auth",
       token_uri: "https://oauth2.googleapis.com/token",
       auth_provider_x509_cert_url: "https://www.googleapis.com/oauth2/v1/certs",
-      client_secret: "35sbslCiwcNmlRkMtkV7Y_0p",
+      client_secret: "EDYEJ_U_O3_kI1N_YKNS8gka",
       redirect_uris: ["urn:ietf:wg:oauth:2.0:oob", "http://localhost"],
     },
   })
