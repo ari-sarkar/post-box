@@ -17,6 +17,7 @@ const GoogleLoginPage = () => {
     setImgUrl(response.profileObj.imageUrl);
     setAcessToken(response.tokenObj.access_token);
   };
+  console.log("new update")
   return (
     <section id="login">
       {login ? (
