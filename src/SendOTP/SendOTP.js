@@ -2,7 +2,7 @@ import React, { useState } from "react";
 import "../Styles/SendOTP/SendOTP.scss";
 import firebase from "../Firebase/Firebase";
 import UserData from "../UserData/UserData";
-const SendOTP = ({ userName, email, imgUrl }) => {
+const SendOTP = ({ userName, email, imgUrl, acessToken }) => {
   const [phoneNo, setPhoneNo] = useState("");
   const [isSignedIn, setIsSignedIn] = useState(false);
   const SubmitOTP = () => {
@@ -23,7 +23,7 @@ const SendOTP = ({ userName, email, imgUrl }) => {
       });
   };
   return isSignedIn ? (
-    <UserData email={email}/>
+    <UserData email={email} acessToken={acessToken}/>
   ) : (
     <div id="send-otp-container">
       <div className="user-wrapper">
